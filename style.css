@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: url(media%20art3.png);
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  /*  position: relative;*/
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.title {
+  position: fixed;
+  color: rgba(251, 201, 255, 1);
+  line-height: 44px;
+  /*  margin: 10px 30px;*/
+  height: auto;
+  left: 30px;
+  overflow: hidden;
+  margin: 10px;
+  /*  background-color: rgba(251, 201, 255, 1);*/
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: rgba(200, 200, 200, 0.5);
+  padding: 10px 30px;
+  margin: 10px 30px;
+  height: 50px;
+  width: 450px;
+/*  transform-origin: 0 0;*/
+  overflow: hidden;
+  transition: all 1s 0s ease;
+}
+
+nav:hover {
+  background-color: rgba(20, 20, 20, 0.5);
+  width: 630px;
+  height: 300px;
+  letter-spacing: 10px;
+  transition: 1s;
+}
+
+nav:hover>li>a {
+  letter-spacing: 6px;
+  transition: 1s;
+}
+
+li {
+  float: right;
+  margin: 0px 25px;
+  list-style: none;
+  padding: 2px;
+}
+
+li>a {
+  text-decoration: none;
+  color: rgba(251, 201, 255, 1);
+  transform: rotateX(360deg);
+  display: block;
+  letter-spacing: 1px;
+}
+
+li:hover>a {
+  color: white;
+  transform: rotateX(0deg);
+  transition: 1.5s;
+}
+li:hover>p {
+  font-size: 5px;
+  transition: 1s;
+  overflow: visible;
+  color: black;
+}
+
+.pocket {
+  height: auto;
+   transition: all 1s 0s ease;
+}
+
+.pocket:hover {
+  height: 300px;
+  transition: 1s;
+  overflow: visible;
+  background-color: rgba(251, 201, 255, 1);
+}
+
+.kaban {
+  height: auto;
+   transition: all 1s 0s ease;
+}
+
+.kaban:hover {
+  height: 300px;
+  transition: 1s;
+  overflow: visible;
+  background-color: rgba(251, 201, 255, 1);
+}
+
+.rocket {
+  height: auto;
+   transition: all 1s 0s ease;
+}
+
+.rocket:hover {
+  height: 300px;
+  transition: 1s;
+  overflow: visible;
+  background-color: rgba(251, 201, 255, 1);
+}
+
+p {
+  display: none;
+   transition: all 1s 0s ease;
+}
+
+
+
+
+div {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transform: rotateX(360deg);
+}
+
+div:hover {
+  transform: translate3d(100px, 100px, 0px);
+  transform: rotateY(0deg);
+  transition: 1.5s;
+}
+
+*/ section {
+  height: 10000px;
+}
+foorer{
+  position: relative;
+}
+img{
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 30%;
+}
